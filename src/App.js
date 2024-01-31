@@ -9,7 +9,10 @@ export default function App() {
         <h1> Hello
           
         </h1>
-       
+
+        <footer>
+        <a href="https://github.com/ivs-silva/silk-weather-app">Open Source code by Ivonne Silva</a>
+        </footer>
       
     </div>
   );
