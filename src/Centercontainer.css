@@ -1,0 +1,21 @@
+
+.list-group{
+    list-style: none;
+    padding: 1% 0;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+}
+.current-temp{
+    font-size: 30px;
+    align-items: right;
+    text-align: right;
+    padding-top: 10px;
+    
+}
+.temp-links{
+    font-size: 15px;
+    color: rgb(67,54,63,255);
+    text-decoration: none;
+}

@@ -1,0 +1,38 @@
+.App{
+    margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border:1px solid #101011b5;
+  border-radius: 10px;
+  width: 600px;
+  height: 300px;
+}
+body {
+    background: url('https://res.cloudinary.com/dmttdtywd/image/upload/v1706967003/IMG_20231223_001053_068_pf0lvv.jpg');
+    background-size: repeat;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(67,54,63,255);
+    font-weight:700;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+  }
+
+  .footer-link{
+    color: #9eb0bc;
+    font-size: 18px;
+  }
+  .footer-link:visited{
+    color:#b9775f;
+    font-size:18px;
+  }
+  
