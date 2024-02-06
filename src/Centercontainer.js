@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './SearchEngine.css';
 import axios from "axios";
 import "./Cityname.css" ;
+import FormatDate from "./FormatDate";
+import WeatherInfo from "./WeatherInfo";
 
 export default function Centercontainer(){
     
@@ -19,7 +21,7 @@ export default function Centercontainer(){
             humidity:response.data.temperature.humidity,
             city:response.data.city,
             description:response.data.condition.description,
-            time:response.data.time,
+            date:new Date (response.data.time *1000),
             icon:response.data.condition.icon,
             
 
@@ -57,7 +59,7 @@ export default function Centercontainer(){
                     Silky Weather: <span className="text-capitalize"> {weatherData.description} </span>
                 </li>
                 <li>
-                    {weatherData.time}
+                    <FormatDate date={weatherData.date} />
                 </li>
                 <li className="current-temp">
                 {Math.round(weatherData.temperature)} <a className="temp-links" href="https://www.shecodes.io">C°</a> | <a className="temp-links" href="https://www.shecodes.io">F°</a>
@@ -65,6 +67,7 @@ export default function Centercontainer(){
             </ul>
             </div>
             <form>
+                <WeatherInfo />
             <div className="row">
                 <div className=" col-6">
             
