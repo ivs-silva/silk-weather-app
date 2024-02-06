@@ -2,5 +2,21 @@
     background-color: rgba(227,213,226,255);
     align-items: center;
     align-content: center;
+    border-color: rgb(67,54,63,255);
+    color:#1d1526
     
+}
+.btn{
+    background-color: rgba(227,213,226,255);
+    color: rgb(67,54,63,255);
+    border-color: rgb(67,54,63,255);;
+}
+
+.form-control:hover{
+    background-color: rgba(227,213,226,255);
+}
+
+.btn:hover{
+    background-color: rgba(227,213,226,255);
+    color:#67979c
 }

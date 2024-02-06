@@ -5,14 +5,14 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border:1px solid #101011b5;
+  border:1px solid rgb(67,54,63,255);;
   border-radius: 10px;
   width: 600px;
-  height: 300px;
+  height: 350px;
 }
 body {
-    background: url('https://res.cloudinary.com/dmttdtywd/image/upload/v1706967003/IMG_20231223_001053_068_pf0lvv.jpg');
-    background-size: repeat;
+    background: url('https://res.cloudinary.com/dmttdtywd/image/upload/v1707239416/DSC03480_mz6u3y.jpg');
+    background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
     height: 100vh;
@@ -21,18 +21,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(67,54,63,255);
+    color:black;
     font-weight:700;
     font-family:'Times New Roman', Times, serif;
     font-size:20px;
   }
 
   .footer-link{
-    color: #9eb0bc;
+    color: rgb(67,54,63,255);
     font-size: 18px;
+    background-color:#5f447b97;
+    border-radius: 1px;
+    
   }
   .footer-link:visited{
-    color:#b9775f;
+    color:white;
+    ;
     font-size:18px;
   }
   
