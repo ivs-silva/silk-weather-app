@@ -9,34 +9,37 @@
   border-radius: 10px;
   width: 600px;
   height: 350px;
+  
 }
 body {
-    background: url('https://res.cloudinary.com/dmttdtywd/image/upload/v1707239416/DSC03480_mz6u3y.jpg');
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color:black;
-    font-weight:700;
-    font-family:'Times New Roman', Times, serif;
-    font-size:20px;
-  }
+  background: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-position:center;
+  
+}
+
 
   .footer-link{
     color: rgb(67,54,63,255);
     font-size: 18px;
-    background-color:#5f447b97;
+    
     border-radius: 1px;
     
   }
   .footer-link:visited{
-    color:white;
-    ;
+    color:black;
+    
     font-size:18px;
   }
   
