@@ -12,7 +12,7 @@ export default function App() {
     <div className="App">
       <div className="container-sm">
 <div>
-  <Centercontainer />
+  <Centercontainer defaultCity="Vienna"/>
 </div>
 
         <footer>
