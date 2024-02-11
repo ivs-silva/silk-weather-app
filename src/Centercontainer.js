@@ -5,6 +5,7 @@ import './SearchEngine.css';
 import axios from "axios";
 import "./Cityname.css" ;
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast"
 
 export default function Centercontainer(props){
     
@@ -22,6 +23,7 @@ function handleResponse(response){
             description:response.data.condition.description,
             date:new Date (response.data.time *1000),
             icon:response.data.condition.icon,
+            
             
 
         });
@@ -64,6 +66,7 @@ setCity(event.target.value);
             </div>
             </div>
             </form>
+            <WeatherForecast coordinates={weatherData.coordinates} />
           </div>  
           
          
