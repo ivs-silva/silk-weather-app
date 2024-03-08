@@ -56,6 +56,8 @@ export default function WeatherInfo(props) {
                             {Math.round(convertTemperature(props.data.temperature))} <a className="temp-links" href="/" onClick={handleTemperatureClick}>C°</a> | <a className="temp-links" href="/" onClick={handleTemperatureClick}>F°</a>
                         </li>
                     </ul>
+                
+            
                 </div>
             </div>
         </div>

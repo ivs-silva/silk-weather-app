@@ -1,23 +1,26 @@
 .WeatherForecast {
-    margin: 20px;
-    margin-top: 30px;
+    margin: 0px;
+    margin-top: 5px;
   }
   
   .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: content-box;
   }
   
   .col {
-    flex: 1; /* Set flex to 1 to occupy full width */
-    padding: 10px;
+    flex: 1; 
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; /* Include padding and border in the width */
+    box-sizing: content-box;
+ 
   }
   
   .col:not(:first-child) {
-    margin-left: 10px; /* Add margin between columns */
+    margin-left: 10px; 
   }
   
   .WeatherForecast-day {
@@ -26,8 +29,16 @@
     font-family: 'Times New Roman', Times, serif;
     color: gray;
     display: flex;
+    text-decoration: none;
   }
+  .temp-link {
+    justify-content: center;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    display: flex;
   
+  }
  .Icon{
   display: flex;
   justify-content: center;
